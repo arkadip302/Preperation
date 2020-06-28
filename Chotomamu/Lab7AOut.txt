@@ -1,3 +1,0 @@
-Salary : 40000
-Tax : 7800Salary : 50000
-Tax : 10000
