@@ -1,22 +1,17 @@
 #include <bits/stdc++.h>
 using namespace std;
-class A
-{
-public:
-    A() { cout << "a"; }
-};
-class B : public A
-{
-public:
-    B() { cout << "b"; }
-};
-class C : public B
-{
-public:
-    C() { cout << "C"; }
-};
-
 int main()
 {
-    C obj;
+    int n;
+    cin >> n;
+    int mat[n][n];
+    for (int i = 0; i < n; i++)
+    {
+        for (int j = 0; j < n; j++)
+        {
+            cin >> mat[i][j];
+        }
+    }
+    int l, b;
+    cin >> l >> b;
 }
